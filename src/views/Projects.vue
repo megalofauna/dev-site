@@ -25,9 +25,9 @@
                     <p class="px-16 mt-8 text-lg text-center font-mediumw full xl:w-3/4">Manage your design tokens,
                         generate your styleguide, and build your component library. All in one place.</p>
                 </div>
-                <img class="mx-auto max-w-screen" src="img/planet-isolated.webp" alt="">
+                <img class="mx-auto max-w-screen" src="/public/img/planet-isolated.webp" alt="">
                 <img class="absolute w-[3vw] h-auto -translate-x-1/2 -translate-y-1/2 left-1/2 top-4/5 "
-                    src="img/rocket-isolated.webp" alt="">
+                    src="/public/img/rocket-isolated.webp" alt="">
             </div>
             <div class="h-[512px] full-bleed bg-gradient-to-b from-gray-900 to-gray-800"></div>
         </section>
