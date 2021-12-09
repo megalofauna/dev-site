@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+.rings {
+    box-shadow: 0 0 0 24px rgba(255,255,255,.2),
+    0 0 0 48px rgba(255,255,255,.1),
+    0 0 0 72px rgba(255,255,255,.05);
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.full-bleed {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+}
+
+ul.list-square {
+    text-indent: 20px;
+}
+ul.list-square li {
+    position: relative;
+    text-indent: -0px;
+    padding-left: 24px;
+}
+
+ul.list-square li::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    left: 0;
+    top: 8px;
+    background-color: theme('colors.gray.300');
+  }

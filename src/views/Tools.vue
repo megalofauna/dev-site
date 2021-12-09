@@ -1,0 +1,76 @@
+<template>
+  <article class="px-8 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
+    <h1 class="text-5xl font-black leading-none md:text-6xl xl:text-8xl">
+      Tools I like<br class="inline sm:hidden"> to use.
+    </h1>
+    <div class="grid grid-cols-12 gap-4 mt-16 place-items-stretch">
+      <div v-for="(tool, i) in tools" v-bind:key="i" class="relative flex flex-col items-center col-span-12 pt-12 bg-gray-100 shadow-sm dark:border-gray-800 dark:border-opacity-0 md:col-span-6 hd:col-span-4 dark:bg-gray-800 dark:bg-opacity-20">
+        <span class="flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full dark:bg-transparent md:w-28 md:h-28 xl:w-32 xl:h-32">
+          <img class="w-3/4 h-3/4 xl:w-full xl:h-full" :src="tool.iconPath" alt="Tool logo">
+        </span>
+        <h3 class="mt-6 text-4xl font-extrabold text-gray-600 dark:text-white sm:text-5xl xl:text-7xl">
+          <a :class="tool.hoverColor" class="transition-colors duration-300 ease" :href="tool.url">{{ tool.name }}</a>
+        </h3>
+        <hr class="w-16 mx-auto my-4">
+        <p class="w-1/3 mx-auto mt-2 mb-16 text-sm text-center text-gray-500 xl:w-1/2 xl:leading-tight dark:text-gray-300 md:text-base xl:text-lg">
+          {{ tool.description }}
+        </p>
+        <div class="w-full p-8 mt-auto bg-gray-400 dark:bg-gray-900 bg-opacity-5 dark:bg-opacity-25">
+          <p class="text-xl leading-snug text-gray-500 dark:text-gray-200">{{tool.commentary}}</p>
+        </div>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script>
+  export default {
+    data() {
+      return {
+        pageCurrentRoute: window.location.pathname,
+        tools: [
+          {
+            name: "Alpine.js",
+            url: 'https://alpinejs.dev/',
+            hoverColor: 'hover:text-[#77C1D2]',
+            iconPath: "./img/tools/alpine-js.svg",
+            description: "Lightweight, powerful reactive JavaScript library",
+            commentary: "When the DOM needs some reactivity, but a full-fledged JavaScript framework is too much overhead, I reach for Alpine. Every time.",
+          },
+          {
+            name: "Vue.js",
+            hoverColor: 'hover:text-emerald-400',
+            url: 'https://vuejs.org/',
+            iconPath: "./img/tools/vue-js.svg",
+            description: "Progressive JS framework—tiny core, big ecosystem",
+            commentary: "Sprinkle on top of existing projects or build a fully-scalable project from scratch. Vue’s got you.",
+          },
+          {
+            name: "TailwindCSS",
+            url: 'https://tailwindcss.com/',
+            hoverColor: 'hover:text-[#06b6d4]',
+            iconPath: "./img/tools/tailwind-css.svg",
+            description: "A utility-first CSS framework",
+            commentary: "Love it or hate it: functional CSS always makes an impression. I ❤ it. And I dunno know what you heard, but it scales.",
+          },
+          {
+            name: "Vite.js",
+            url: 'https://vitejs.dev/',
+            hoverColor: 'hover:text-[#FFC018]',
+            iconPath: "./img/tools/vite-js.svg",
+            description: "Next-generation frontend tooling",
+            commentary: "Bye-bye, slow server startups and distracting update delays. This thing’s built on native ESM.",
+          },
+          {
+            name: "Eleventy.js",
+            url: 'https://www.11ty.dev/',
+            hoverColor: 'hover:text-red-400',
+            iconPath: "./img/tools/11ty-js.svg",
+            description: "A simpler static site generator",
+            commentary: "",
+          },
+        ],
+      };
+    },
+  };
+</script>
