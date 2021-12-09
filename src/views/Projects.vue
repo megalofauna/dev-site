@@ -1,10 +1,8 @@
 <template>
-
     <article class="px-8 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
         <h1 class="text-5xl font-black leading-none md:text-6xl xl:text-8xl">
             What I'm building right now.
         </h1>
-
         <section>
             <div
                 class="relative min-h-screen mt-8 border-t-8 border-red-400 bg-gradient-to-b from-black to-gray-900 full-bleed">
