@@ -1,46 +1,47 @@
 <template>
-    <div class="flex items-center space-x-2">
+	<div class="flex items-center space-x-2">
+		<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+			:class="theme === 'dark' ? 'text-gray-600' : 'text-yellow-500'">
+			<path fill-rule="evenodd" clip-rule="evenodd"
+				d="M10 2C10.2652 2 10.5196 2.10536 10.7071 2.29289C10.8946 2.48043 11 2.73478 11 3V4C11 4.26522 10.8946 4.51957 10.7071 4.70711C10.5196 4.89464 10.2652 5 10 5C9.73478 5 9.48043 4.89464 9.29289 4.70711C9.10536 4.51957 9 4.26522 9 4V3C9 2.73478 9.10536 2.48043 9.29289 2.29289C9.48043 2.10536 9.73478 2 10 2ZM14 10C14 11.0609 13.5786 12.0783 12.8284 12.8284C12.0783 13.5786 11.0609 14 10 14C8.93913 14 7.92172 13.5786 7.17157 12.8284C6.42143 12.0783 6 11.0609 6 10C6 8.93913 6.42143 7.92172 7.17157 7.17157C7.92172 6.42143 8.93913 6 10 6C11.0609 6 12.0783 6.42143 12.8284 7.17157C13.5786 7.92172 14 8.93913 14 10ZM13.536 14.95L14.243 15.657C14.4316 15.8392 14.6842 15.94 14.9464 15.9377C15.2086 15.9354 15.4594 15.8302 15.6448 15.6448C15.8302 15.4594 15.9354 15.2086 15.9377 14.9464C15.94 14.6842 15.8392 14.4316 15.657 14.243L14.95 13.536C14.7614 13.3538 14.5088 13.253 14.2466 13.2553C13.9844 13.2576 13.7336 13.3628 13.5482 13.5482C13.3628 13.7336 13.2576 13.9844 13.2553 14.2466C13.253 14.5088 13.3538 14.7614 13.536 14.95ZM15.656 4.343C15.8435 4.53053 15.9488 4.78484 15.9488 5.05C15.9488 5.31516 15.8435 5.56947 15.656 5.757L14.95 6.464C14.8578 6.55951 14.7474 6.63569 14.6254 6.6881C14.5034 6.74051 14.3722 6.7681 14.2394 6.76925C14.1066 6.7704 13.9749 6.7451 13.852 6.69482C13.7291 6.64454 13.6175 6.57029 13.5236 6.4764C13.4297 6.3825 13.3555 6.27085 13.3052 6.14795C13.2549 6.02506 13.2296 5.89338 13.2307 5.7606C13.2319 5.62782 13.2595 5.4966 13.3119 5.3746C13.3643 5.25259 13.4405 5.14225 13.536 5.05L14.243 4.343C14.4305 4.15553 14.6848 4.05021 14.95 4.05021C15.2152 4.05021 15.4685 4.15553 15.656 4.343ZM17 11C17.2652 11 17.5196 10.8946 17.7071 10.7071C17.8946 10.5196 18 10.2652 18 10C18 9.73478 17.8946 9.48043 17.7071 9.29289C17.5196 9.10536 17.2652 9 17 9H16C15.7348 9 15.4804 9.10536 15.2929 9.29289C15.1054 9.48043 15 9.73478 15 10C15 10.2652 15.1054 10.5196 15.2929 10.7071C15.4804 10.8946 15.7348 11 16 11H17ZM10 15C10.2652 15 10.5196 15.1054 10.7071 15.2929C10.8946 15.4804 11 15.7348 11 16V17C11 17.2652 10.8946 17.5196 10.7071 17.7071C10.5196 17.8946 10.2652 18 10 18C9.73478 18 9.48043 17.8946 9.29289 17.7071C9.10536 17.5196 9 17.2652 9 17V16C9 15.7348 9.10536 15.4804 9.29289 15.2929C9.48043 15.1054 9.73478 15 10 15ZM5.05 6.464C5.14284 6.55691 5.25308 6.63062 5.37441 6.68093C5.49575 6.73124 5.6258 6.75716 5.75715 6.7572C5.88849 6.75725 6.01857 6.73142 6.13993 6.6812C6.2613 6.63098 6.37159 6.55734 6.4645 6.4645C6.55741 6.37166 6.63112 6.26142 6.68143 6.14009C6.73174 6.01876 6.75766 5.8887 6.7577 5.75735C6.75775 5.62601 6.73192 5.49593 6.6817 5.37457C6.63148 5.2532 6.55784 5.14291 6.465 5.05L5.757 4.343C5.5684 4.16084 5.3158 4.06005 5.0536 4.06233C4.7914 4.0646 4.54059 4.16977 4.35518 4.35518C4.16977 4.54059 4.0646 4.7914 4.06233 5.0536C4.06005 5.3158 4.16084 5.5684 4.343 5.757L5.05 6.464ZM6.464 14.95L5.757 15.657C5.5684 15.8392 5.3158 15.94 5.0536 15.9377C4.7914 15.9354 4.54059 15.8302 4.35518 15.6448C4.16977 15.4594 4.0646 15.2086 4.06233 14.9464C4.06005 14.6842 4.16084 14.4316 4.343 14.243L5.05 13.536C5.2386 13.3538 5.4912 13.253 5.7534 13.2553C6.0156 13.2576 6.26641 13.3628 6.45182 13.5482C6.63723 13.7336 6.7424 13.9844 6.74467 14.2466C6.74695 14.5088 6.64616 14.7614 6.464 14.95ZM4 11C4.26522 11 4.51957 10.8946 4.70711 10.7071C4.89464 10.5196 5 10.2652 5 10C5 9.73478 4.89464 9.48043 4.70711 9.29289C4.51957 9.10536 4.26522 9 4 9H3C2.73478 9 2.48043 9.10536 2.29289 9.29289C2.10536 9.48043 2 9.73478 2 10C2 10.2652 2.10536 10.5196 2.29289 10.7071C2.48043 10.8946 2.73478 11 3 11H4Z"
+				fill="currentColor" />
+		</svg>
+		<button type="button" @click="toggleTheme()" role="switch"
+			class="relative h-9 w-16 bg-gray-500 rounded-full overflow-hidden">
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor"
-            :class="enabled ? 'text-gray-300' : 'text-gray-50'">
-            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-        </svg>
-        <Switch v-model="enabled" :class="enabled ? 'bg-gray-800' : 'bg-gray-300'" @click="toggleTheme()"
-            class="relative inline-flex items-center flex-shrink-0 w-16 h-8 transition-colors duration-200 ease-in-out rounded cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
-            <span class="sr-only">Use setting</span>
-            <span aria-hidden="true" :class="enabled ? 'translate-x-9 bg-gray-50' : 'translate-x-1 bg-gray-700'"
-                class="inline-block w-6 h-6 transition duration-200 ease-in-out transform rounded-sm pointer-events-none ring-0" />
-        </Switch>
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20"
-            :class="enabled ? 'text-yellow-600' : 'text-gray-500'" fill="currentColor">
-            <path fill-rule="evenodd"
-                d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
-                clip-rule="evenodd" />
-        </svg>
-    </div>
+			<span class="absolute inset-0 flex items-center" :class="theme === 'dark' ? 'bg-gray-800' : 'bg-gray-200'">
+				<span aria-hidden="true" class="w-6 h-6 rounded-full transition-all"
+					:class="theme === 'dark' ? 'translate-x-8 bg-gray-50' : 'translate-x-[6px] bg-gray-600'"></span>
+			</span>
+		</button>
+		<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" 
+			:class="theme === 'dark' ? 'text-white' : 'text-gray-200'"
+			fill="currentColor">
+			<path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+		</svg>
+
+	</div>
 </template>
 
 <script>
-    import { ref } from 'vue'
-    import { Switch } from '@headlessui/vue'
-
-    export default {
-        components: { Switch },
-        setup() {
-            const enabled = ref(false)
-            return { enabled }
-        },
-        methods: {
-            toggleTheme() {
-                if (this.enabled) {
-                    console.log('this is enabled')
-                    document.documentElement.classList.remove('dark')
-                    localStorage.theme = 'light'
-                } else {
-                    document.documentElement.classList.add('dark')
-                    localStorage.theme = 'dark'
-                }
-            }
-        }
-    }
+	export default {
+		data() {
+			return {
+				theme: localStorage.getItem("theme")
+			};
+		},
+		methods: {
+			toggleTheme() {
+				if (this.theme === "dark") {
+					this.theme = "light"
+					document.documentElement.classList.remove('dark')
+					localStorage.setItem("theme", "light")
+				} else {
+					this.theme = "dark"
+					document.documentElement.classList.add('dark')
+					localStorage.setItem("theme", "dark");
+				}
+			}
+		}
+	};
 </script>

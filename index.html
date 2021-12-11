@@ -8,11 +8,7 @@
   <link rel="preload" href="/font/Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
   <link rel="stylesheet" href="/font/fonts.css" />
   <script>
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
+    !function(){try{let e=window.matchMedia("not all and (prefers-color-scheme: light)");document.body;"dark"==localStorage.getItem("theme")?document.documentElement.classList.add("dark"):"light"==localStorage.getItem("theme")?document.documentElement.classList.remove("dark"):e.matches&&(document.documentElement.classList.add("dark"),localStorage.setItem("theme","dark")),e.addListener((function(){e.matches?(document.documentElement.classList.add("dark"),localStorage.setItem("theme","dark")):(document.documentElement.classList.remove("dark"),localStorage.setItem("theme","light"))}))}catch(e){}}();
   </script>
 </head>
 
