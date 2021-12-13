@@ -15,7 +15,7 @@
                     </span>
                 </span>
                 <h2 class="absolute font-mono text-2xl text-gray-800 md:text-4xl xl:text-5xl top-6 left-8 md:top-8 md:left-10 xl:top-16 xl:left-20">alamodal.dev</h2>
-                <img class="w-full max-w-full rounded-t-2xl" src="img/projects/brownie-a-la-mode.webp" alt="">
+                <img class="w-full max-w-full rounded-t-2xl" src="/img/projects/brownie-a-la-mode.webp" alt="">
             </div>
             <div class="overflow-hidden rounded-b-2xl">
                 <div class="pt-8 pb-4 bg-gray-100 dark:bg-gray-850">
@@ -27,7 +27,7 @@
                         <div class="relative flex justify-between">
                             <div class="flex flex-col items-center">
                                 <span
-                                    class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-50 dark:bg-gray-900 ring-2 ring-blue-500">
+                                    class="flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full dark:bg-gray-900 ring-2 ring-blue-500">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
                                         fill="currentColor">
                                         <path fill-rule="evenodd"
