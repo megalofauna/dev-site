@@ -1,18 +1,14 @@
 <script setup>
   import { ref } from 'vue'
-  // import ThemeToggle from '@/components/ThemeToggle.vue'
   import ThemeToggle from '@/components/ThemeToggle.vue'
 </script>
 
 <template>
-  <header class="py-8 pl-2 pr-8 mx-auto md:py-10 xl:py-12 md:px-16 xl:px-24 max-w-screen-hd">
+  <header class="px-6 py-6 mx-auto md:py-10 xl:py-12 md:px-16 xl:px-24 max-w-screen-hd">
     <div class="flex items-center justify-between w-full mx-auto">
-      <a href="/" class="text-xl font-black ">
-        <img class="w-40" src="/img/logo.svg"/>
-        
-      </a>
+      <a href="/" class="font-mono text-lg font-thin hover:underline hover:text-blue-500">http://chrissalmon.dev</a>
       <nav
-        class="fixed bottom-0 left-0 z-50 w-full py-3 bg-opacity-75 border-t border-black border-opacity-40 lg:border-none lg:dark:bg-transparent dark:bg-black dark:bg-opacity-30 bg-gray-50 backdrop-blur-lg lg:bottom-auto lg:w-auto lg:left-auto lg:relative lg:z-auto lg:flex lg:justify-between">
+        class="fixed bottom-0 left-0 z-50 w-full py-3 bg-opacity-75 lg:bottom-auto lg:w-auto lg:left-auto lg:relative lg:z-auto lg:flex lg:justify-between">
         <ul class="flex items-center justify-center space-x-16 text-sm">
           <li>
             <a href="/projects" class="flex flex-col items-center text-xs group dark:group hover:text-red-400">

@@ -7,14 +7,14 @@
 				fill="currentColor" />
 		</svg>
 		<button type="button" @click="toggleTheme()" role="switch"
-			class="relative h-9 w-16 bg-gray-500 rounded-full overflow-hidden">
+			class="relative w-16 overflow-hidden bg-gray-500 rounded-full outline-none h-9 focus:ring-2 ring-blue-500">
 
 			<span class="absolute inset-0 flex items-center" :class="theme === 'dark' ? 'bg-gray-800' : 'bg-gray-200'">
-				<span aria-hidden="true" class="w-6 h-6 rounded-full transition-all"
+				<span aria-hidden="true" class="w-6 h-6 transition-all rounded-full"
 					:class="theme === 'dark' ? 'translate-x-8 bg-gray-50' : 'translate-x-[6px] bg-gray-600'"></span>
 			</span>
 		</button>
-		<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" 
+		<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" 
 			:class="theme === 'dark' ? 'text-white' : 'text-gray-200'"
 			fill="currentColor">
 			<path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
