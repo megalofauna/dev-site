@@ -2,41 +2,14 @@
 
     <article class="px-8 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
         <h1 class="flex items-center justify-between leading-none">
-            <span class="text-5xl font-extrabold leading-none rounded-lg md:text-6xl xl:text-7xl">Resume</span>
-            <a class="flex items-center py-2 pl-3 pr-4 mt-3 ml-4 transition-colors duration-200 rounded-lg hover:text-white bg-brand-primary group hover:bg-gray-700 ease text-md" href="/documents/christopher-salmon-resume.pdf">
+            <span class="text-5xl font-extrabold leading-none rounded-lg md:text-6xl xl:text-7xl">My experience.</span>
+            <a class="flex items-center py-2 pl-3 pr-4 mt-2 ml-4 transition-colors duration-200 rounded-lg hover:text-white bg-brand-primary group hover:bg-gray-700 ease" href="/documents/christopher-salmon-resume.pdf">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transition-colors duration-200 ease" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd" />
                   </svg>
-                <span class="ml-2 font-medium">Download</span>
+                <span class="ml-2 text-xs font-medium md:text-base xl:text-md">Download</span>
             </a>
         </h1>
-        <!-- <header class="flex items-center">
-            <h1 class="m-0 text-base tracking-widest uppercase font-400">{{ $route.meta.title }}</h1>
-            <hr class="flex-grow my-0 ml-6 mr-6 border-t border-red-500">
-            <div class="flex space-x-4">
-                <button type="button" class="relative flex items-center px-2 py-1 text-red-500 bg-red-100 rounded hover:text-white hover:bg-red-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd" />
-                      </svg>
-                </button>
-                <button type="button" class="relative flex items-center px-2 py-1 text-red-500 bg-red-100 rounded hover:text-white hover:bg-red-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M5 4v3H4a2 2 0 00-2 2v3a2 2 0 002 2h1v2a2 2 0 002 2h6a2 2 0 002-2v-2h1a2 2 0 002-2V9a2 2 0 00-2-2h-1V4a2 2 0 00-2-2H7a2 2 0 00-2 2zm8 0H7v3h6V4zm0 8H7v4h6v-4z" clip-rule="evenodd" />
-                      </svg>
-                </button>
-            </div>
-        </header> -->
-
-
-        <!-- <p class="mt-24 text-xl font-bold md:text-2xl xl:text-4xl">Chris Salmon</p>
-        <p class="text-xl font-semibold text-gray-600 xl:text-3xl 2xl:text-5xl 2xl:leading-tight">
-            A <span class="font-bold text-red-400">design-obsessed front-end developer</span> with 8 years’ experience,
-            I am especially interested in crafting accessible, performant, and well-constructed products defined by
-            design systems and built with pattern
-            libraries. I thrive at the intersection of <span class="font-bold text-red-400">user-focused design</span>
-            and <span class="font-bold text-red-400">reusable, inclusive code</span>.
-        </p> -->
-
         <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">
                 Languages & technologies
@@ -45,6 +18,7 @@
                 <li><strong>Languages:</strong> HTML / CSS (Sass, PostCSS) / JavaScript|TypeScript</li>
                 <li><strong>Technologies:</strong> Vue (and ecosystem), Vite, Alpine, TailwindCSS, amCharts, Eleventy
                     (SSG)</li>
+                <li><strong>Accessibility:</strong> Smashing Workshop: Accessible Front-End Patterns Masterclass (completed 09/2021)</li>
                 <li><strong>Working knowledge:</strong> React</li>
             </ul>
         </section>
@@ -52,9 +26,9 @@
         <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Work experience</h2>
             <div class="flex flex-wrap items-center justify-between mt-8">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 sm:w-auto">Software Developer II - Assistant Vice
+                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Software Developer II - Assistant Vice
                     President</h3>
-                <p class="px-2 py-1 mt-1 text-sm text-gray-100 bg-gray-600 rounded">Nov 2021 – present</p>
+                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-875">Nov 2021 – present</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
@@ -64,8 +38,8 @@
             </ul>
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:text-gray-100">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 sm:w-auto">Software Developer II</h3>
-                <p class="px-2 py-1 mt-1 text-sm text-gray-100 bg-gray-600 rounded">Nov 2021 – present</p>
+                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Software Developer II</h3>
+                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-875">Nov 2021 – present</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
@@ -78,8 +52,8 @@
             </ul>
 
             <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 sm:w-auto">UI/UX Designer</h3>
-                <p class="px-2 py-1 mt-1 text-sm text-gray-100 bg-gray-600 rounded">April 2017 — May 2018</p>
+                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">UI/UX Designer</h3>
+                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-875">April 2017 — May 2018</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">NORDAM/PartPilot</p>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
@@ -94,8 +68,8 @@
             </ul>
 
             <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 sm:w-auto">Front-end Developer</h3>
-                <p class="px-2 py-1 mt-1 text-sm text-gray-100 bg-gray-600 rounded">Mar 2016 — April 2017</p>
+                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Front-end Developer</h3>
+                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-875">Mar 2016 — April 2017</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">PennWell Publishing</p>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
@@ -105,8 +79,8 @@
             </ul>
 
             <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 sm:w-auto">Front-end Developer/Designer</h3>
-                <p class="px-2 py-1 mt-1 text-sm text-gray-100 bg-gray-600 rounded">June 2015 — Mar 2016</p>
+                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Front-end Developer/Designer</h3>
+                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-875">June 2015 — Mar 2016</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Brief Media</p>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
@@ -123,8 +97,8 @@
 
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:text-gray-100">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 sm:w-auto">Front-end Developer</h3>
-                <p class="px-2 py-1 mt-1 text-sm text-gray-100 bg-gray-600 rounded">April 2013 — June 2015</p>
+                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Front-end Developer</h3>
+                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-875">April 2013 — June 2015</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">American Association of Petroleum Geologists</p>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">

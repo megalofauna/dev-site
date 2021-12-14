@@ -1,22 +1,26 @@
 <template>
   <article class="px-8 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
-    <h1 class="text-5xl font-black leading-none md:text-6xl xl:text-8xl">
+
+    <h1 class="text-5xl font-extrabold leading-none md:text-6xl xl:text-7xl">
       Tools I like<br class="inline sm:hidden"> to use.
     </h1>
     <div class="grid grid-cols-12 gap-4 mt-16 place-items-stretch">
-      <div v-for="(tool, i) in tools" v-bind:key="i" class="relative flex flex-col items-center col-span-12 pt-12 bg-gray-100 shadow-sm dark:border-gray-800 dark:border-opacity-0 md:col-span-6 hd:col-span-4 dark:bg-gray-800 dark:bg-opacity-20">
-        <span class="flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full dark:bg-transparent md:w-28 md:h-28 xl:w-32 xl:h-32">
+      <div v-for="(tool, i) in tools" v-bind:key="i"
+        class="relative flex flex-col items-center col-span-12 pt-12 overflow-hidden bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 lg:col-span-6 hd:col-span-4 dark:bg-gray-825">
+        <span
+          class="flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full dark:bg-transparent md:w-28 md:h-28 xl:w-32 xl:h-32">
           <img class="w-3/4 h-3/4 xl:w-full xl:h-full" :src="tool.iconPath" alt="Tool logo">
         </span>
         <h3 class="mt-6 text-4xl font-extrabold text-gray-600 dark:text-white sm:text-5xl xl:text-7xl">
           <a :class="tool.hoverColor" class="transition-colors duration-300 ease" :href="tool.url">{{ tool.name }}</a>
         </h3>
         <hr class="w-16 mx-auto my-4">
-        <p class="w-1/3 mx-auto mt-2 mb-16 text-sm text-center text-gray-500 xl:w-1/2 xl:leading-tight dark:text-gray-300 md:text-base xl:text-lg">
+        <p
+          class="w-1/3 mx-auto mt-2 mb-16 text-sm text-center text-gray-500 lg:w-1/2 xl:leading-tight dark:text-gray-300 md:text-base xl:text-lg">
           {{ tool.description }}
         </p>
-        <div class="w-full p-8 mt-auto bg-gray-400 dark:bg-gray-900 bg-opacity-5 dark:bg-opacity-25">
-          <p class="text-xl leading-snug text-gray-500 dark:text-gray-200">{{tool.commentary}}</p>
+        <div class="w-full p-8 mt-auto bg-opacity-25 bg-gray-125 dark:bg-gray-850">
+          <p class="leading-snug text-gray-500 text-md md:text-lg xl:text-lg dark:text-gray-200">{{tool.commentary}}</p>
         </div>
       </div>
     </div>

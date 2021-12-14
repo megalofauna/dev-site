@@ -1,12 +1,12 @@
 <template>
     <article class="px-6 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
         <h1 class="text-5xl font-extrabold leading-none md:text-6xl xl:text-7xl">
-            Projects
+            Things I'm working on.
         </h1>
         <!-- <p class="mt-1 text-gray-300 text-md">Stuff I'm working on now</p> -->
-        <section class="mt-16 border rounded-lg border-gray-125 dark:border-gray-900">
+        <section class="mt-16 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
             <div class="relative">
-                <div class="absolute inset-0 opacity-40 rounded-t-2xl bg-gradient-to-b from-white to-transparent"></div>
+                <div class="absolute inset-0 rounded-t-lg opacity-40 bg-gradient-to-b from-white to-transparent"></div>
                 <span
                     class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 bg-opacity-80 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
