@@ -33,6 +33,9 @@ module.exports = {
           '875': '#131519',
           '900': '#0D0E11'
         },
+        brand: {
+          primary: '#FF734F'
+        }
         // gray: trueGray
       }
     },

@@ -1,9 +1,15 @@
 <template>
 
     <article class="px-8 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
-        <h1 class="text-5xl font-black leading-none md:text-6xl xl:text-8xl">
-            Resume
-          </h1>
+        <h1 class="flex items-center justify-between leading-none">
+            <span class="text-5xl font-extrabold leading-none rounded-lg md:text-6xl xl:text-7xl">Resume</span>
+            <a class="flex items-center py-2 pl-3 pr-4 mt-3 ml-4 transition-colors duration-200 rounded-lg hover:text-white bg-brand-primary group hover:bg-gray-700 ease text-md" href="/documents/christopher-salmon-resume.pdf">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transition-colors duration-200 ease" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd" />
+                  </svg>
+                <span class="ml-2 font-medium">Download</span>
+            </a>
+        </h1>
         <!-- <header class="flex items-center">
             <h1 class="m-0 text-base tracking-widest uppercase font-400">{{ $route.meta.title }}</h1>
             <hr class="flex-grow my-0 ml-6 mr-6 border-t border-red-500">
@@ -31,8 +37,8 @@
             and <span class="font-bold text-red-400">reusable, inclusive code</span>.
         </p> -->
 
-        <section class="p-8 mt-16 bg-gray-100 border-t-4 border-red-400 md:p-8 xl:p-16 dark:bg-gray-800 dark:bg-opacity-20">
-            <h2 class="flex items-center m-0 text-2xl font-medium dark:text-white md:text-3xl xl:text-5xl">
+        <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
+            <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">
                 Languages & technologies
             </h2>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
@@ -43,9 +49,9 @@
             </ul>
         </section>
 
-        <section class="p-8 mt-16 bg-gray-100 border-t-4 border-red-400 md:p-8 xl:p-16 dark:bg-gray-800 dark:bg-opacity-20">
-            <h2 class="flex items-center m-0 text-2xl font-medium dark:text-white md:text-3xl xl:text-5xl">Work experience</h2>
-            <div class="flex flex-wrap items-center justify-between mt-16">
+        <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
+            <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Work experience</h2>
+            <div class="flex flex-wrap items-center justify-between mt-8">
                 <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 sm:w-auto">Software Developer II - Assistant Vice
                     President</h3>
                 <p class="px-2 py-1 mt-1 text-sm text-gray-100 bg-gray-600 rounded">Nov 2021 – present</p>
@@ -53,6 +59,7 @@
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Lead for org-wide evaluation and revamp of front-end development practices</li>
+                <li>Mentor junior front-end developers</li>
                 <li>Duties as below</li>
             </ul>
             <div
@@ -131,8 +138,8 @@
                 <li>Performed design and development tasks as required</li>
             </ul>
         </section>
-        <section class="p-8 mt-16 bg-gray-100 border-t-4 border-red-400 md:p-8 xl:p-16 dark:bg-gray-800 dark:bg-opacity-20">
-            <h2 class="flex items-center m-0 text-2xl font-medium dark:text-white md:text-3xl xl:text-5xl">Education</h2>
+        <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
+            <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Education</h2>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Undergraduate: BA in English (major) and History (minor) | Austin Peay (with honors)</li>
                 <li>Masters: MA in Theology (emphasis in Philosophy) | New Orleans Baptist Theological Seminary (with

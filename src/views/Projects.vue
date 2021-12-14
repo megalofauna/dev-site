@@ -3,33 +3,33 @@
         <h1 class="text-5xl font-extrabold leading-none md:text-6xl xl:text-7xl">
             Projects
         </h1>
-        <p class="mt-1 text-gray-300 text-md">Stuff I'm working on now</p>
-        <section class="mt-16 border border-gray-125 dark:border-gray-900 rounded-2xl">
+        <!-- <p class="mt-1 text-gray-300 text-md">Stuff I'm working on now</p> -->
+        <section class="mt-16 border rounded-lg border-gray-125 dark:border-gray-900">
             <div class="relative">
                 <div class="absolute inset-0 opacity-40 rounded-t-2xl bg-gradient-to-b from-white to-transparent"></div>
                 <span
                     class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 bg-opacity-80 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
-                        class="flex items-center justify-center w-20 h-20 text-6xl font-bold bg-gray-100 border-4 rounded-full border-gray-150 dark:border-gray-600 dark:bg-gray-800 md:w-28 md:h-28 xl:w-36 xl:h-36">
+                        class="flex items-center justify-center w-20 h-20 text-6xl font-bold bg-gray-100 border-4 rounded-full border-gray-125 dark:border-gray-700 dark:bg-gray-800 md:w-28 md:h-28 xl:w-36 xl:h-36">
                         <span class="text-4xl font-bold text-gray-500 dark:text-gray-100 xl:font-black">1</span>
                     </span>
                 </span>
                 <h2 class="absolute font-mono text-2xl text-gray-800 sm:text-3xl md:text-4xl xl:text-5xl top-3 left-4 sm:top-4 sm:left-8 md:top-8 md:left-10 xl:top-16 xl:left-20">alamodal.dev</h2>
-                <img class="w-full max-w-full rounded-t-2xl" src="/img/projects/brownie-a-la-mode.webp" alt="">
+                <img class="object-cover w-full max-w-full rounded-t-lg max-h-96" src="/img/projects/brownie-a-la-mode.webp" alt="">
             </div>
-            <div class="overflow-hidden rounded-b-2xl">
-                <div class="pt-8 pb-4 bg-gray-100 dark:bg-gray-850">
+            <div class="overflow-hidden rounded-b-lg">
+                <div class="pt-8 pb-4">
                     <div class="relative mx-8 text-xs tracking-wide uppercase">
-                        <span class="absolute h-1 bg-gray-150 dark:bg-gray-800 inset-x-4 top-3.5"></span>
+                        <span class="absolute h-1 bg-gray-150 dark:bg-gray-850 inset-x-4 top-3.5"></span>
                         <div class="absolute h-1 inset-x-6 top-3.5">
-                            <span class="absolute top-0 left-0 w-1/3 h-full bg-blue-500"></span>
-                            <span class="absolute top-0 w-24 h-full bg-gradient-to-r from-blue-500 to transparent left-1/3"></span>
+                            <span class="absolute top-0 left-0 w-1/3 h-full bg-brand-primary"></span>
+                            <span class="absolute top-0 w-24 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
                         </div>
                         <div class="relative flex justify-between">
                             <div class="flex flex-col items-center">
                                 <span
-                                    class="flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full dark:bg-gray-800 ring-2 ring-blue-500">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-blue-500" viewBox="0 0 20 20"
+                                    class="flex items-center justify-center w-8 h-8 bg-gray-100 border-2 rounded-full dark:bg-gray-800 border-brand-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-primary" viewBox="0 0 20 20"
                                         fill="currentColor">
                                         <path fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -41,7 +41,7 @@
                             <div class="flex flex-col items-center">
                                 <span
                                     class="flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full dark:bg-gray-800">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-500" viewBox="0 0 20 20"
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-brand-primary" viewBox="0 0 20 20"
                                         fill="currentColor">
                                         <path fill-rule="evenodd"
                                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
@@ -51,11 +51,11 @@
                                 <span class="mt-4">Design</span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="w-8 h-8 rounded-full bg-gray-150 dark:bg-gray-800"></span>
+                                <span class="w-8 h-8 rounded-full bg-gray-150 dark:bg-gray-850"></span>
                                 <span class="mt-4">Dev<span class="hidden md:inline">elopment</span></span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="w-8 h-8 rounded-full bg-gray-150 dark:bg-gray-800"></span>
+                                <span class="w-8 h-8 rounded-full bg-gray-150 dark:bg-gray-850"></span>
                                 <span class="mt-4">Launch</span>
                             </div>
                         </div>
@@ -71,8 +71,6 @@
                         <li>: FASHIONABLE</li>
                         <li>: topped with ice cream</li>
                     </ol>
-
-
                 </div>
             </div>
         </section>
