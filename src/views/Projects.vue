@@ -3,7 +3,6 @@
         <h1 class="text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">
             Things I'm working on.
         </h1>
-        <!-- <p class="mt-1 text-gray-300 text-md">Stuff I'm working on now</p> -->
         <section class="mt-16 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
             <div class="relative">
                 <div class="absolute inset-0 rounded-t-lg opacity-40 bg-gradient-to-b from-white to-transparent"></div>
@@ -14,8 +13,11 @@
                         <span class="text-4xl font-bold text-gray-500 dark:text-gray-100 xl:font-black">1</span>
                     </span>
                 </span>
-                <h2 class="absolute font-mono text-2xl text-gray-800 sm:text-3xl md:text-4xl xl:text-5xl top-3 left-4 sm:top-4 sm:left-8 md:top-8 md:left-10 xl:top-16 xl:left-20">alamodal.dev</h2>
-                <img class="object-cover w-full max-w-full rounded-t-lg max-h-96" src="/img/projects/brownie-a-la-mode.webp" alt="">
+                <h2
+                    class="absolute font-mono text-2xl text-gray-800 sm:text-3xl md:text-4xl xl:text-5xl top-3 left-4 sm:top-4 sm:left-8 md:top-8 md:left-10 xl:top-16 xl:left-20">
+                    alamodal.dev</h2>
+                <img class="object-cover w-full max-w-full rounded-t-lg max-h-128"
+                    src="/img/projects/brownie-a-la-mode.webp" alt="">
             </div>
             <div class="overflow-hidden rounded-b-lg">
                 <div class="pt-8 pb-4">
@@ -23,14 +25,15 @@
                         <span class="absolute h-1 bg-gray-150 dark:bg-gray-850 inset-x-4 top-3.5"></span>
                         <div class="absolute h-1 inset-x-6 top-3.5">
                             <span class="absolute top-0 left-0 w-1/3 h-full bg-brand-primary"></span>
-                            <span class="absolute top-0 w-24 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
+                            <span
+                                class="absolute top-0 w-24 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
                         </div>
                         <div class="relative flex justify-between">
                             <div class="flex flex-col items-center">
                                 <span
                                     class="flex items-center justify-center w-8 h-8 bg-gray-100 border-2 rounded-full dark:bg-gray-800 border-brand-primary">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-primary" viewBox="0 0 20 20"
-                                        fill="currentColor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-primary"
+                                        viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd"
                                             d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                             clip-rule="evenodd" />
@@ -41,8 +44,8 @@
                             <div class="flex flex-col items-center">
                                 <span
                                     class="flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full dark:bg-gray-800">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-brand-primary" viewBox="0 0 20 20"
-                                        fill="currentColor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-brand-primary"
+                                        viewBox="0 0 20 20" fill="currentColor">
                                         <path fill-rule="evenodd"
                                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
                                             clip-rule="evenodd" />
@@ -71,6 +74,101 @@
                         <li>: FASHIONABLE</li>
                         <li>: topped with ice cream</li>
                     </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-32 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
+            <div class="relative">
+                <!-- <div class="absolute inset-0 rounded-t-lg opacity-40 bg-gradient-to-b from-white to-transparent"></div> -->
+                <span
+                    class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 bg-opacity-80 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
+                    <span
+                        class="flex items-center justify-center w-20 h-20 text-6xl font-bold bg-gray-100 border-4 rounded-full border-gray-125 dark:border-gray-700 dark:bg-gray-800 md:w-28 md:h-28 xl:w-36 xl:h-36">
+                        <span class="text-4xl font-bold text-gray-500 dark:text-gray-100 xl:font-black">2</span>
+                    </span>
+                </span>
+                <h2
+                    class="absolute font-mono text-2xl text-gray-100 sm:text-3xl md:text-4xl xl:text-5xl top-3 left-4 sm:top-4 sm:left-8 md:top-8 md:left-10 xl:top-16 xl:left-20">
+                    flightplan.dev</h2>
+                <img class="object-cover w-full max-w-full rounded-t-lg max-h-128" src="/img/projects/flight-plan.jpg"
+                    alt="">
+            </div>
+            <div class="overflow-hidden rounded-b-lg">
+                <div class="pt-8 pb-4">
+                    <div class="relative mx-8 text-xs tracking-wide uppercase">
+                        <span class="absolute h-1 bg-gray-150 dark:bg-gray-850 inset-x-4 top-3.5"></span>
+                        <div class="absolute h-1 inset-x-6 top-3.5">
+                            <span class="absolute top-0 left-0 w-1/3 h-full bg-brand-primary"></span>
+                            <span
+                                class="absolute top-0 w-24 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
+                        </div>
+                        <div class="relative flex justify-between">
+                            <div class="flex flex-col items-center">
+                                <span
+                                    class="flex items-center justify-center w-8 h-8 bg-gray-100 border-2 rounded-full dark:bg-gray-800 border-brand-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-primary"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                                <span class="mt-4">Planning</span>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <span
+                                    class="flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full dark:bg-gray-800">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-brand-primary"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                                <span class="mt-4">Design</span>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <span class="w-8 h-8 rounded-full bg-gray-150 dark:bg-gray-850"></span>
+                                <span class="mt-4">Dev<span class="hidden md:inline">elopment</span></span>
+                            </div>
+                            <div class="flex flex-col items-center">
+                                <span class="w-8 h-8 rounded-full bg-gray-150 dark:bg-gray-850"></span>
+                                <span class="mt-4">Launch</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prose text-gray-600 lg:prose-lg xl:prose-xl bg-gray-50 max-w-none dark:bg-gray-825 dark:text-gray-125">
+
+                    <div class="max-w-4xl p-8">
+                        <h3 class="text-gray-700 dark:text-white">Origin</h3>
+                        <p>
+                            Originally intended as a proof-of-concept app to visualize a customized Tailwind config file, Flight Plan
+                            was forked from @surjithctly's NEAT Starter. Like that project, Flight Plan currently
+                            uses Eleventy (with Nunjucks) and AlpineJS to do most of the heavy lifting.
+                        </p>
+                        <p>
+                            Each of these projects is excellent.
+                        </p>
+                        <h3 class="text-gray-700 dark:text-white">Discoveries</h3>
+                        <p>
+                            Using Nunjucks in conjunction with Alpine, however, has made for a messy implementation. Nunjucks (a
+                            templating language for JavaScript) is not, itself, JavaScript. Getting its tokens and Alpine's
+                            properties to play nicely together is challenging.
+                        </p>
+                        <p>
+                            But both are necessary. Alpine, as awesome as it is, isn't made for templating. And Nunjucks, as
+                            awesome as it is, isn't made for composing reactive behavior in the browser. So, they complement one
+                            another—but in a rocky marriage sort of way.
+                        </p>
+                        <h3 class="text-gray-700 dark:text-white">The path forward</h3>
+                        <p>
+                            With the proof of concept effectively complete (well, completed enough), I won't be putting any
+                            additional effort into the NEAT version of flight plan. There were too many compromises and too much
+                            general messiness to continue down this path.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
