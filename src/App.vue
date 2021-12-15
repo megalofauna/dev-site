@@ -4,11 +4,11 @@
 </script>
 
 <template>
-  <header class="px-6 py-6 mx-auto md:py-10 xl:py-12 md:px-16 xl:px-24 max-w-screen-hd">
+  <header class="px-6 py-6 mx-auto bg-gray-825 md:py-10 xl:py-12 md:px-16 xl:px-24 max-w-screen-hd">
     <div class="flex items-center justify-between w-full mx-auto">
       <a href="/" class="font-mono text-lg font-thin hover:underline hover:text-brand-primary">http://chrissalmon.dev</a>
       <nav
-        class="fixed bottom-0 left-0 z-50 w-full py-3 bg-gray-100 border-t border-gray-200 lg:border-none backdrop-blur-xl bg-opacity-70 dark:bg-opacity-80 dark:border-black dark:bg-gray-800 lg:bottom-auto lg:w-auto lg:left-auto lg:relative lg:z-auto lg:flex lg:justify-between">
+        class="fixed bottom-0 left-0 z-50 w-full py-3 bg-gray-100 border-t border-gray-200 lg:border-none backdrop-blur-xl bg-opacity-70 lg:bg-transparent dark:lg:bg-transparent dark:bg-opacity-80 dark:border-gray-850 dark:bg-gray-800 lg:bottom-auto lg:w-auto lg:left-auto lg:relative lg:z-auto lg:flex lg:justify-between">
         <ul class="flex items-center justify-center space-x-16 text-xs">
           <li>
             <a href="/projects" class="flex flex-col items-center group dark:group hover:text-brand-primary">

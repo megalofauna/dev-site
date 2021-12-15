@@ -1,6 +1,6 @@
 <template>
     <article class="px-6 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
-        <h1 class="text-5xl font-extrabold leading-none md:text-6xl xl:text-7xl">
+        <h1 class="text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">
             Things I'm working on.
         </h1>
         <!-- <p class="mt-1 text-gray-300 text-md">Stuff I'm working on now</p> -->

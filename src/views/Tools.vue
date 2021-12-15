@@ -1,7 +1,7 @@
 <template>
   <article class="px-8 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
 
-    <h1 class="text-5xl font-extrabold leading-none md:text-6xl xl:text-7xl">
+    <h1 class="text-4xl font-extrabold leading-none md:text-5xl xl:text-6xl">
       Tools I like<br class="inline sm:hidden"> to use.
     </h1>
     <div class="grid grid-cols-12 gap-4 mt-16 place-items-stretch">
