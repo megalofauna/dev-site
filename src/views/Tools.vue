@@ -39,7 +39,7 @@
             hoverColor: 'hover:text-[#77C1D2]',
             iconPath: "./img/tools/alpine-js.svg",
             description: "Lightweight, powerful reactive JavaScript library",
-            commentary: "When the DOM needs some reactivity, but a full-fledged JavaScript framework is too much overhead, I reach for Alpine. Every time.",
+            commentary: "When the DOM needs some reactivity, but a full-fledged JavaScript framework is too much overhead, I reach for Alpine. Works every time.",
           },
           {
             name: "Vue.js",
@@ -71,7 +71,7 @@
             hoverColor: 'hover:text-red-400',
             iconPath: "./img/tools/11ty-js.svg",
             description: "A simpler static site generator",
-            commentary: "",
+            commentary: "11ty is  perfect for standing up a static site quickly with no fuss. A really adaptable base that just works out of the box.",
           },
         ],
       };

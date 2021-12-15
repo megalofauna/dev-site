@@ -16,7 +16,7 @@
                 <span class="mt-[1px] ml-2 text-xs font-medium md:text-base xl:text-md">Download as PDF</span>
             </a>
         </h1>
-        <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
+        <section class="p-8 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-825 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">
                 Languages & technologies
             </h2>
@@ -30,7 +30,7 @@
             </ul>
         </section>
 
-        <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
+        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-825 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Work
                 experience</h2>
             <div class="flex flex-wrap items-center justify-between mt-8">
@@ -139,7 +139,7 @@
                 <li>Performed design and development tasks as required</li>
             </ul>
         </section>
-        <section class="mt-16 bg-gray-100 dark:bg-gray-800 dark:bg-opacity-20">
+        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-825 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Education
             </h2>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">

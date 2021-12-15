@@ -29,6 +29,30 @@ ul.list-square li {
     padding-left: 24px;
 }
 
+
+
+.colt-45::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -16px;
+    left: 50%;
+    padding: 16px;
+    transform: translateX(-50%);
+    width: 256px;
+    height: 200px;
+    background-color: black;
+    background-image: url('./img/works-every-time.jpg');
+    background-size: cover;
+    opacity: 0;
+    transition: all 125ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.colt-45:hover::before {
+    opacity: 1;
+    top: -128px;
+}
+
 ul.list-square li::before {
     content: "";
     position: absolute;
