@@ -42,7 +42,7 @@ ul.list-square li {
     width: 256px;
     height: 200px;
     background-color: black;
-    background-image: url('./img/works-every-time.jpg');
+    background-image: url('/img/works-every-time.jpg');
     background-size: cover;
     opacity: 0;
     transition: all 125ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -58,7 +58,7 @@ ul.list-square li {
 }
 
 .flight-plan {
-    background-image: url('./img/projects/milky-way.jpg');
+    background-image: url('/img/projects/milky-way.jpg');
     background-size: cover;
 }
 
