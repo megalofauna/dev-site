@@ -5,7 +5,8 @@
         </h1>
         <section class="mt-16 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
             <div class="relative flex items-center justify-center h-64 rounded-t-lg md:h-80 xl:h-96 alamodal">
-                <img class="block w-1/3 max-w-xs md:w-1/4 lg:w-1/5" src="/img/projects/logomark.svg" alt="">
+                <img class="block object-cover w-full h-full max-w-full mix-blend-multiply" src="/img/projects/brownie-a-la-mode.jpg" alt="">
+                <img class="absolute block w-1/3 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 md:w-1/4 lg:w-2/12" src="/img/projects/alamodal-logomark.svg" alt="">
                 <span
                     class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
@@ -77,7 +78,8 @@
         </section>
 
         <section class="mt-32 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
-            <div class="relative h-64 rounded-t-lg md:h-80 xl:h-96 flight-plan">
+            <div class="relative flex items-center justify-center h-64 rounded-t-lg md:h-80 xl:h-96 flight-plan">
+                <img class="block w-1/3 md:w-1/4 lg:w-3/12" src="/img/projects/flight-plan-logomark.svg" alt="">
                 <span
                     class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
