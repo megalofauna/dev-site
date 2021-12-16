@@ -4,8 +4,8 @@
             Things I'm working on.
         </h1>
         <section class="mt-16 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
-            <div class="relative">
-                <div class="absolute inset-0 rounded-t-lg opacity-40 bg-gradient-to-b from-white to-transparent"></div>
+            <div class="relative flex items-center justify-center h-64 rounded-t-lg md:h-80 xl:h-96 alamodal">
+                <img class="block w-1/3 max-w-xs md:w-1/4 lg:w-1/5" src="/img/projects/logomark.svg" alt="">
                 <span
                     class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 bg-opacity-80 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
@@ -14,10 +14,8 @@
                     </span>
                 </span>
                 <h2
-                    class="absolute font-mono text-2xl text-gray-800 sm:text-3xl md:text-4xl xl:text-5xl top-3 left-4 sm:top-4 sm:left-8 md:top-8 md:left-10 xl:top-16 xl:left-20">
+                    class="absolute font-mono text-xl text-gray-100 sm:text-2xl top-4 left-4 sm:top-8 sm:left-8">
                     alamodal.dev</h2>
-                <img class="object-cover w-full max-w-full rounded-t-lg max-h-128"
-                    src="/img/projects/brownie-a-la-mode.webp" alt="">
             </div>
             <div class="overflow-hidden rounded-b-lg">
                 <div class="pt-8 pb-4">
@@ -79,8 +77,7 @@
         </section>
 
         <section class="mt-32 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
-            <div class="relative">
-                <!-- <div class="absolute inset-0 rounded-t-lg opacity-40 bg-gradient-to-b from-white to-transparent"></div> -->
+            <div class="relative h-64 rounded-t-lg md:h-80 xl:h-96 flight-plan">
                 <span
                     class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 bg-opacity-80 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
@@ -89,10 +86,8 @@
                     </span>
                 </span>
                 <h2
-                    class="absolute font-mono text-2xl text-gray-100 sm:text-3xl md:text-4xl xl:text-5xl top-3 left-4 sm:top-4 sm:left-8 md:top-8 md:left-10 xl:top-16 xl:left-20">
+                    class="absolute font-mono text-xl text-gray-100 sm:text-2xl top-4 left-4 sm:top-8 sm:left-8">
                     flightplan.dev</h2>
-                <img class="object-cover w-full max-w-full rounded-t-lg max-h-128" src="/img/projects/flight-plan.jpg"
-                    alt="">
             </div>
             <div class="overflow-hidden rounded-b-lg">
                 <div class="pt-8 pb-4">

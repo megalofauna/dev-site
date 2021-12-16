@@ -53,6 +53,15 @@ ul.list-square li {
     top: -128px;
 }
 
+.alamodal {
+    background-image:radial-gradient(100% 150% at 0% 55%, rgba(255, 255, 255, 0.25) 38%, rgba(233, 225, 229, 0.44) 53.5%, rgba(220, 191, 224, 0.63) 69%, #4299e1 100%), linear-gradient(318deg, #ffffb5 0%, #fef372 7.33%, #f6d860 22%, #f3bf59 27.67%, #ed894b 39%, #e47346 45%, #d53a42 57%, #c93a51 63.33%, #b1385e 76%, #97385d 84%, #6a324f 100%)
+}
+
+.flight-plan {
+    background-image: url('./img/projects/milky-way.jpg');
+    background-size: cover;
+}
+
 ul.list-square li::before {
     content: "";
     position: absolute;
