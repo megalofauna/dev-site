@@ -7,7 +7,7 @@
             <div class="relative flex items-center justify-center h-64 rounded-t-lg md:h-80 xl:h-96 alamodal">
                 <img class="block w-1/3 max-w-xs md:w-1/4 lg:w-1/5" src="/img/projects/logomark.svg" alt="">
                 <span
-                    class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 bg-opacity-80 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
+                    class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
                         class="flex items-center justify-center w-20 h-20 text-6xl font-bold bg-gray-100 border-4 rounded-full border-gray-125 dark:border-gray-700 dark:bg-gray-800 md:w-28 md:h-28 xl:w-36 xl:h-36">
                         <span class="text-4xl font-bold text-gray-500 dark:text-gray-100 xl:font-black">1</span>
@@ -79,7 +79,7 @@
         <section class="mt-32 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900">
             <div class="relative h-64 rounded-t-lg md:h-80 xl:h-96 flight-plan">
                 <span
-                    class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 bg-opacity-80 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
+                    class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full dark:bg-gray-800 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
                         class="flex items-center justify-center w-20 h-20 text-6xl font-bold bg-gray-100 border-4 rounded-full border-gray-125 dark:border-gray-700 dark:bg-gray-800 md:w-28 md:h-28 xl:w-36 xl:h-36">
                         <span class="text-4xl font-bold text-gray-500 dark:text-gray-100 xl:font-black">2</span>
