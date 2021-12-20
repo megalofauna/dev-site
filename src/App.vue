@@ -1,10 +1,11 @@
 <script setup>
   import { ref } from 'vue'
   import ThemeToggle from '@/components/ThemeToggle.vue'
+  import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
-  <header class="px-6 py-6 mx-auto bg-white border-b shadow-sm dark:bg-gray-825 md:py-10 xl:py-12 md:px-16 xl:px-24 border-gray-150 dark:border-gray-875">
+  <header class="px-6 py-6 mx-auto bg-white border-b border-gray-300 shadow-sm dark:bg-gray-900 md:py-10 xl:py-12 md:px-16 xl:px-24 dark:border-black">
     <div class="mx-auto max-w-screen-hd ">
       <div class="flex items-center justify-between w-full mx-auto">
         <a href="/" class="font-mono text-lg font-thin hover:underline hover:text-brand-primary">http://chrissalmon.dev</a>
@@ -49,4 +50,5 @@
   <main class="w-full mx-auto mb-32 max-w-screen-hd">
     <router-view />
   </main>
+  <Footer/>
 </template>

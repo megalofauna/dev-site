@@ -3,67 +3,42 @@
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';
-
-.rings {
-    box-shadow: 0 0 0 24px rgba(255,255,255,.2),
-    0 0 0 48px rgba(255,255,255,.1),
-    0 0 0 72px rgba(255,255,255,.05);
-}
-
 [v-cloak] {
     display: none;
 }
-
-.full-bleed {
-    width: 100vw;
-    margin-left: 50%;
-    transform: translateX(-50%); 
-}
-
-ul.list-square {
-    text-indent: 20px;
-}
-ul.list-square li {
-    position: relative;
-    text-indent: -0px;
-    padding-left: 24px;
-}
-
-
-
-.colt-45::before {
-    content: '';
+.spinner-ring,
+.spinner-section {
     position: absolute;
-    display: block;
-    top: -16px;
-    left: 50%;
-    padding: 16px;
-    transform: translateX(-50%);
-    width: 256px;
-    height: 200px;
-    background-color: black;
-    background-image: url('/img/works-every-time.jpg');
-    background-size: cover;
-    opacity: 0;
-    transition: all 125ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+  }
+.spinner-section {
+    border: 2px solid theme('colors.brand.primary');
+    clip-path: polygon(50% 50%, 0% 100%, 100% 100%);
+    animation: Spinner 10s linear infinite;
+    transform: rotate(0);
+    transform-origin:  center center;
 }
-
-.colt-45:hover::before {
-    opacity: 1;
-    top: -128px;
-}
-
+  @keyframes Spinner {
+      100% {
+        transform: rotate(360deg);
+      }
+  }
 .alamodal {
-    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    background: #FC466B;  /* fallback for old browsers */
+    background: linear-gradient(to bottom left, #3F5EFB, #FC466B);
 }
-
-
-
 .flight-plan {
     background-image: url('/img/projects/milky-way.jpg');
     background-size: cover;
 }
-
 ul.list-square li::before {
     content: "";
     position: absolute;
@@ -73,4 +48,12 @@ ul.list-square li::before {
     left: 0;
     top: 8px;
     background-color: theme('colors.gray.300');
-  }
+}
+ul.list-square {
+    text-indent: 20px;
+}
+ul.list-square li {
+    position: relative;
+    text-indent: -0px;
+    padding-left: 24px;
+}

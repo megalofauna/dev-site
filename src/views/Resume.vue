@@ -1,11 +1,11 @@
 <template>
 
-    <article class="px-8 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
+    <article class="px-6 mt-16 md:mt-24 xl:mt-32 md:px-16 xl:px-24">
         <h1 class="flex flex-wrap items-center justify-between leading-none">
             <span class="text-4xl font-extrabold leading-none rounded-lg md:text-5xl xl:text-6xl">
                 My experience.
             </span>
-            <a class="flex items-center py-2 pl-3 pr-4 mt-4 transition-colors duration-200 rounded-lg sm:mt-0 md:ml-4 hover:text-white bg-brand-primary group hover:bg-gray-700 ease"
+            <a class="flex items-center py-2 pl-3 pr-4 mt-4 transition-colors duration-200 rounded-lg sm:mt-0 md:ml-4 hover:text-white bg-brand-primary group hover:bg-black ease"
                 href="/documents/christopher-salmon-resume.pdf">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transition-colors duration-200 ease"
                     viewBox="0 0 20 20" fill="currentColor">
@@ -16,7 +16,7 @@
                 <span class="mt-[1px] ml-2 text-xs font-medium md:text-base xl:text-md">Download as PDF</span>
             </a>
         </h1>
-        <section class="p-8 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-825 md:p-16 xl:p-24">
+        <section class="p-8 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">
                 Languages & technologies
             </h2>
@@ -30,7 +30,7 @@
             </ul>
         </section>
 
-        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-825 md:p-16 xl:p-24">
+        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Work
                 experience</h2>
             <div class="flex flex-wrap items-center justify-between mt-8">
@@ -139,7 +139,7 @@
                 <li>Performed design and development tasks as required</li>
             </ul>
         </section>
-        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-825 md:p-16 xl:p-24">
+        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Education
             </h2>
             <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
