@@ -5,7 +5,7 @@
             <span class="text-4xl font-extrabold leading-none rounded-lg md:text-5xl xl:text-6xl">
                 My experience.
             </span>
-            <a class="flex items-center py-2 pl-3 pr-4 mt-4 transition-colors duration-200 rounded-lg sm:mt-0 md:ml-4 hover:text-white bg-brand-primary group hover:bg-black ease"
+            <a class="flex items-center py-2 pl-3 pr-4 mt-4 text-white transition-colors duration-200 rounded-lg sm:mt-0 md:ml-4 bg-brand-primary group hover:bg-black ease"
                 href="/documents/christopher-salmon-resume.pdf">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-white transition-colors duration-200 ease"
                     viewBox="0 0 20 20" fill="currentColor">
@@ -16,11 +16,11 @@
                 <span class="mt-[1px] ml-2 text-xs font-medium md:text-base xl:text-md">Download as PDF</span>
             </a>
         </h1>
-        <section class="p-8 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
-            <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">
+        <section class="p-6 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
+            <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">
                 Languages & technologies
             </h2>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li><strong>Languages:</strong> HTML / CSS (Sass, PostCSS) / JavaScript|TypeScript</li>
                 <li><strong>Technologies:</strong> Vue (and ecosystem), Vite, Alpine, TailwindCSS, amCharts, Eleventy,
                     Astro, Strapi</li>
@@ -30,33 +30,33 @@
             </ul>
         </section>
 
-        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
-            <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Work
+        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
+            <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">Work
                 experience</h2>
             <div class="flex flex-wrap items-center justify-between mt-8">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Software
+                <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Software
                     Developer II - Assistant Vice
                     President</h3>
                 <p
-                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-850">
+                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     Nov 2021 – present</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Lead for org-wide evaluation and revamp of front-end development practices</li>
                 <li>Mentor junior front-end developers</li>
                 <li>Duties as below</li>
             </ul>
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:text-gray-100">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Software
+                <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Software
                     Developer II</h3>
                 <p
-                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-850">
+                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     Nov 2021 – present</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Precisely code out responsive, accessible UIs using semantic HTML and algorithmic CSS</li>
                 <li>Plan, design, and construct new pages/layouts based on expert familiarity with design system</li>
                 <li>Plan and build out reusable components that consume diverse types of data</li>
@@ -66,14 +66,14 @@
             </ul>
 
             <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">UI/UX
+                <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">UI/UX
                     Designer</h3>
                 <p
-                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-850">
+                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     April 2017 — May 2018</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">NORDAM/PartPilot</p>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Research, plan, and design user-centered, accessible features with an eye toward implementation in
                     efficient code</li>
                 <li>Build out static code prototypes for complex features</li>
@@ -85,28 +85,28 @@
             </ul>
 
             <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Front-end
+                <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer</h3>
                 <p
-                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-850">
+                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     Mar 2016 — April 2017</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">PennWell Publishing</p>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Developed new features in close collaboration with design team</li>
                 <li>Developed plan to reduce CSS code bloat by 75%</li>
                 <li>Performed cross-browser/cross-device quality assurance testing for web features</li>
             </ul>
 
             <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Front-end
+                <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer/Designer</h3>
                 <p
-                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-850">
+                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     June 2015 — Mar 2016</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Brief Media</p>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Developed reusable PostCSS generators to generate styles for various layout scenarios</li>
                 <li>Spearheaded CSS refactor of one of our web properties, veterinaryteambrief.com, eliminating
                     unnecessary
@@ -120,15 +120,15 @@
 
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:text-gray-100">
-                <h3 class="w-full m-0 text-lg font-bold leading-tight md:text-2xl dark:text-gray-50 lg:w-auto">Front-end
+                <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer</h3>
                 <p
-                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 rounded dark:text-gray-100 bg-gray-125 dark:bg-gray-850">
+                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     April 2013 — June 2015</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">American Association of Petroleum
                 Geologists</p>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Project lead for redesign and implementation of responsive website for URTEC (Unconventional
                     Resources
                     Technology Conference)</li>
@@ -139,10 +139,10 @@
                 <li>Performed design and development tasks as required</li>
             </ul>
         </section>
-        <section class="p-8 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
-            <h2 class="flex items-center m-0 text-3xl font-medium dark:text-white md:text-4xl xl:text-5xl">Education
+        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
+            <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">Education
             </h2>
-            <ul class="max-w-5xl mt-8 space-y-2 list-inside xl:space-y-3 list-square xl:text-xl">
+            <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Undergraduate: BA in English (major) and History (minor) | Austin Peay (with honors)</li>
                 <li>Masters: MA in Theology (emphasis in Philosophy) | New Orleans Baptist Theological Seminary (with
                     honors)</li>

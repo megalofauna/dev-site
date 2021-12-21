@@ -8,7 +8,7 @@
 					:class="theme === 'dark' ? 'translate-x-5 bg-white' : 'translate-x-[4px] bg-gray-400'"></span>
 			</span>
 		</button>
-		<label for="theme-toggle" class="font-bold tracking-wide uppercase">Dark</label>
+		<label for="theme-toggle" class="text-sm font-bold tracking-wide uppercase xl:text-md">Dark</label>
 	</div>
 </template>
 
