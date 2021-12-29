@@ -50,5 +50,5 @@
   <main class="w-full mx-auto mb-32 max-w-screen-hd">
     <router-view />
   </main>
-  <Footer/>
+  <!-- <Footer/> -->
 </template>
