@@ -50,6 +50,14 @@
             commentary: "Sprinkle on top of existing projects or build a fully-scalable project from scratch. Vue’s got you.",
           },
           {
+            name: "Netlify",
+            hoverColor: 'hover:text-[#38AEBB]',
+            url: 'https://www.netlify.com/',
+            iconPath: "./img/tools/netlify.svg",
+            description: "Pioneers and explorers of the JAMStack",
+            commentary: "Fast-as-lightning page loads, dyanmic APIs, quick-and-easy deployments.",
+          },
+          {
             name: "TailwindCSS",
             url: 'https://tailwindcss.com/',
             hoverColor: 'hover:text-[#06b6d4]',
