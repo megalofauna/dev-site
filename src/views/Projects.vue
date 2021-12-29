@@ -6,7 +6,7 @@
         <section class="relative mt-16 border border-gray-200 rounded shadow-md dark:border-gray-900">
             <div class="relative flex items-center justify-center h-96 rounded-t md:h-[32rem] xl:h-[40rem] alamodal">
                 <img class="absolute block w-1/3 -translate-x-1/2 -translate-y-2/3 top-1/2 left-1/2 md:w-1/3 lg:w-3/12"
-                    src="/img/projects/alamodal-logomark.svg" alt="">
+                    src="/img/logo.svg" alt="">
                 <span
                     class="absolute flex items-center justify-center w-24 h-24 bg-gray-100 border-b border-black rounded-full dark:bg-gray-800 md:w-32 md:h-32 xl:w-40 xl:h-40 md:right-10 md:-top-20 right-6 -top-12">
                     <span
@@ -26,7 +26,7 @@
                             <span class="absolute top-0 left-0 w-1/3 h-full bg-brand-primary"></span>
                             <span class="absolute top-0 left-0 w-1/3 h-full bg-brand-primary blur-[3px]"></span>
                             <span
-                                class="absolute top-0 w-24 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
+                                class="absolute top-0 w-1/3 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
                         </div>
                         <div class="relative flex justify-between">
                             <div class="flex flex-col items-center">
@@ -51,27 +51,56 @@
                                 <span class="mt-4">Design</span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
+                                <span
+                                    class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
                                 <span class="mt-4">Dev<span class="hidden md:inline">elopment</span></span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
+                                <span
+                                    class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
                                 <span class="mt-4">Launch</span>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="h-64 p-8 bg-gray-50 dark:bg-gray-900 dark:bg-opacity-25">
-                    <p class="flex items-baseline">
-                        <span class="font-serif text-3xl italic">à la mode</span>
-                        <span class="ml-3 text-xs uppercase">adjective</span>
-                    </p>
-                    <p class="mt-2 text-xl font-light">\ ä-lə-ˈmōd \</p>
-                    <ol class="mt-4 list-decimal list-inside">
-                        <li>: FASHIONABLE</li>
-                        <li>: topped with ice cream</li>
-                    </ol>
+                <div
+                    class="prose text-gray-600 lg:prose-lg bg-gray-50 max-w-none dark:bg-gray-900 dark:bg-opacity-25 dark:text-gray-200">
+
+                    <div class="max-w-4xl p-8">
+                        <p class="flex items-baseline">
+                            <span class="font-serif text-3xl italic">à la mode</span>
+                            <span class="ml-3 text-xs uppercase">adjective</span>
+                        </p>
+                        <p class="mt-2 text-xl font-light">\ ä-lə-ˈmōd \</p>
+                        <ol class="mt-4 list-decimal list-inside">
+                            <li>: UP TO DATE</li>
+                            <li>: topped with ice cream</li>
+                        </ol>
+                        <p>Imagine a website you could visit that housed community-authored and community-maintained
+                            code
+                            snippets and components that were fully accessible to all web users—regardless of ability or
+                            disability. Imagine these code examples were actively discussed via Github Issues and
+                            updated by
+                            the community as best practices emerge and evolve. Imagine further that these code examples
+                            were
+                            annotated with explanatory and implementation notes written by leaders in the accessibility
+                            community. Imagine you, a developer, could copy these battle-tested, community-vetted,
+                            unstyled
+                            blocks of code and paste them into your project, secure in the knowledge that this is the
+                            best
+                            possible starting point for the component you're about to build. </p>
+
+                        <p>That's precisely the vision of alamodal.</p>
+
+                        <p>While the frontend web development space has undergone a welcome shift towards the ideals of
+                            inclusiveness and accessibility, this shift in thought has too often been slow to manifest
+                            in the way we write code. Alamodal aims to give the frontend community a fast, easy,
+                            trustworthy
+                            way to start building accessibly. For everyone. Right now.</p>
+
+                        <p>Ice cream for everybody.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -97,7 +126,7 @@
                         <div class="absolute h-px inset-x-6 top-3.5">
                             <span class="absolute top-0 left-0 w-1/3 h-full bg-brand-primary"></span>
                             <span
-                                class="absolute top-0 w-24 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
+                                class="absolute top-0 w-1/3 h-full bg-gradient-to-r from-brand-primary to transparent left-1/3"></span>
                         </div>
                         <div class="relative flex justify-between">
                             <div class="flex flex-col items-center">
@@ -122,11 +151,13 @@
                                 <span class="mt-4">Design</span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
+                                <span
+                                    class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
                                 <span class="mt-4">Dev<span class="hidden md:inline">elopment</span></span>
                             </div>
                             <div class="flex flex-col items-center">
-                                <span class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
+                                <span
+                                    class="w-8 h-8 bg-white border border-gray-300 rounded-full dark:bg-gray-800 dark:border-black"></span>
                                 <span class="mt-4">Launch</span>
                             </div>
                         </div>

@@ -16,7 +16,7 @@
                 <span class="mt-[1px] ml-2 text-xs font-medium md:text-base xl:text-md">Download as PDF</span>
             </a>
         </h1>
-        <section class="p-6 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
+        <section class="p-6 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">
                 Languages & technologies
             </h2>
@@ -30,7 +30,7 @@
             </ul>
         </section>
 
-        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
+        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">Work
                 experience</h2>
             <div class="flex flex-wrap items-center justify-between mt-8">
@@ -48,7 +48,7 @@
                 <li>Duties as below</li>
             </ul>
             <div
-                class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:text-gray-100">
+                class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black dark:text-gray-100">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Software
                     Developer II</h3>
                 <p
@@ -65,7 +65,7 @@
                 <li>Contribute to design system specifications (e.g., led the adoption of a 4/8pt spatial system)</li>
             </ul>
 
-            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
+            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">UI/UX
                     Designer</h3>
                 <p
@@ -84,7 +84,7 @@
                 </li>
             </ul>
 
-            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
+            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer</h3>
                 <p
@@ -98,7 +98,7 @@
                 <li>Performed cross-browser/cross-device quality assurance testing for web features</li>
             </ul>
 
-            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300">
+            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer/Designer</h3>
                 <p
@@ -119,7 +119,7 @@
             </ul>
 
             <div
-                class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:text-gray-100">
+                class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black dark:text-gray-100">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer</h3>
                 <p
@@ -139,7 +139,7 @@
                 <li>Performed design and development tasks as required</li>
             </ul>
         </section>
-        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-gray-900 dark:bg-gray-900 dark:bg-opacity-20 md:p-16 xl:p-24">
+        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">Education
             </h2>
             <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
