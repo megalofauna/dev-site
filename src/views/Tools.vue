@@ -34,6 +34,14 @@
         pageCurrentRoute: window.location.pathname,
         tools: [
           {
+            name: "Svelte",
+            url: 'https://alpinejs.dev/',
+            hoverColor: 'hover:text-[#FF3E00]',
+            iconPath: "./img/tools/svelte-js.svg",
+            description: "Cybernetically enhanced web apps",
+            commentary: "Currently learning this \"framework\" (it's actually a compiler). Fast, intuitive, native.",
+          },
+          {
             name: "Alpine.js",
             url: 'https://alpinejs.dev/',
             hoverColor: 'hover:text-[#77C1D2]',
