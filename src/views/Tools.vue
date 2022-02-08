@@ -20,7 +20,7 @@
           {{ tool.description }}
         </p>
         <div class="w-full p-8 mt-auto bg-gray-100 dark:bg-gray-900 dark:bg-opacity-50">
-          <p class="text-sm leading-snug text-gray-500 xl:text-lg dark:text-gray-200">{{tool.commentary}}</p>
+          <p class="mx-auto text-sm text-center max-w-xs xl:max-w-xl leading-snug text-gray-500 xl:text-lg dark:text-gray-200">{{tool.commentary}}</p>
         </div>
       </div>
     </div>
@@ -42,12 +42,20 @@
             commentary: "Currently learning this \"framework\" (it's actually a compiler). Fast, intuitive, native.",
           },
           {
+            name: "Strapi",
+            url: 'https://strapi.io/',
+            hoverColor: 'hover:text-[#8E75FF]',
+            iconPath: "./img/tools/strapi-js.svg",
+            description: "The leading open-source headless CMS",
+            commentary: "Built with developer happiness in mind, Strapi gets out of the way and just works.",
+          },
+          {
             name: "Alpine.js",
             url: 'https://alpinejs.dev/',
             hoverColor: 'hover:text-[#77C1D2]',
             iconPath: "./img/tools/alpine-js.svg",
             description: "Lightweight, powerful reactive JavaScript library",
-            commentary: "When the DOM needs some reactivity, but a full-fledged JavaScript framework is too much overhead, I reach for Alpine. Works every time.",
+            commentary: "When I need reactivity, but not a framework, I reach for Alpine. Works every time.",
           },
           {
             name: "Vue.js",
@@ -71,7 +79,7 @@
             hoverColor: 'hover:text-[#06b6d4]',
             iconPath: "./img/tools/tailwind-css.svg",
             description: "A utility-first CSS framework",
-            commentary: "Love it or hate it: functional CSS always makes an impression. I ❤ it. And I dunno know what you heard, but it scales.",
+            commentary: "Love or hate it: utility CSS always makes an impression. I ❤ it. And, yes, it scales.",
           },
           {
             name: "Vite.js",
@@ -87,7 +95,7 @@
             hoverColor: 'hover:text-red-400',
             iconPath: "./img/tools/11ty-js.svg",
             description: "A simpler static site generator",
-            commentary: "11ty is  perfect for standing up a static site quickly with no fuss. A really adaptable base that just works out of the box.",
+            commentary: "Stand up a static site quickly with no fuss. An adaptable base that just works out of the box.",
           },
         ],
       };
