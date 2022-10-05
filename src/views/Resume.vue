@@ -21,12 +21,10 @@
                 Languages & technologies
             </h2>
             <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
-                <li><strong>Languages:</strong> HTML / CSS (Sass, PostCSS) / JavaScript|TypeScript</li>
-                <li><strong>Technologies:</strong> Vue (and ecosystem), Vite, Alpine, TailwindCSS, amCharts, Eleventy,
-                    Astro, Strapi</li>
-                <li><strong>Accessibility:</strong> Smashing Workshop: Accessible Front-End Patterns Masterclass
-                    (completed 09/2021)</li>
-                <li><strong>Working knowledge:</strong> React</li>
+                <li><strong>Expertise</strong> in: HTML, semantic markup, accessibility, CSS (both utility and component based)</li>
+                <li><strong>Languages</strong>: HTML, CSS (Sass, PostCSS), JavaScript|TypeScript</li>
+                <li><strong>Technologies</strong>: Angular, React, Vue (and ecosystem), Vite, Alpine, TailwindCSS, amCharts, Eleventy (SSG), Strapi</li>
+                <li><strong>Accessibility</strong>: Recently completed deep-dive workshop on accessibility tooling and strategies</li>
             </ul>
         </section>
 
@@ -43,7 +41,8 @@
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
             <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
-                <li>Lead for org-wide evaluation and revamp of front-end development practices</li>
+                <li>Develop reusable Angular component library</li>
+                <li>Develop proof of concept to assess best path forward to reusable Angular components</li>
                 <li>Mentor junior front-end developers</li>
                 <li>Duties as below</li>
             </ul>
