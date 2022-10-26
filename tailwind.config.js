@@ -32,7 +32,6 @@ module.exports = {
         brand: {
           primary: '#EC4899'
         }
-        // gray: trueGray
       }
     },
   },

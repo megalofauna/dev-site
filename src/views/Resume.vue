@@ -35,8 +35,7 @@
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Software
                     Developer II - Assistant Vice
                     President</h3>
-                <p
-                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
+                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     Nov 2021 – present</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
