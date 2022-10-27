@@ -16,33 +16,38 @@
                 <span class="mt-[1px] ml-2 text-xs font-medium md:text-base xl:text-md">Download as PDF</span>
             </a>
         </h1>
-        <section class="p-6 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
+        <section
+            class="p-6 mt-16 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
             <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">
                 Languages & technologies
             </h2>
             <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
-                <li><strong>Expertise</strong> in: HTML, semantic markup, accessibility, CSS (both utility and component based)</li>
-                <li><strong>Languages</strong>: HTML, CSS (Sass, PostCSS), JavaScript|TypeScript</li>
-                <li><strong>Technologies</strong>: Angular, React, Vue (and ecosystem), Vite, Alpine, TailwindCSS, amCharts, Eleventy (SSG), Strapi</li>
-                <li><strong>Accessibility</strong>: Recently completed deep-dive workshop on accessibility tooling and strategies</li>
+                <li><strong>Expertise</strong>: HTML and semantic markup, accessibility tooling and strategies, modern
+                    CSS (both utility and component based), presentational JavaScript (ES6)</li>
+                <li><strong>Languages</strong>: HTML, CSS (Sass, PostCSS), JavaScript/TypeScript</li>
+                <li><strong>Frameworks</strong>: Angular, React, Vue, Alpine, TailwindCSS</li>
             </ul>
         </section>
 
-        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
-            <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">Work
-                experience</h2>
+        <section
+            class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
+            <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">
+                Work experience</h2>
             <div class="flex flex-wrap items-center justify-between mt-8">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Software
                     Developer II - Assistant Vice
                     President</h3>
-                <p class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
+                <p
+                    class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
                     Nov 2021 – present</p>
             </div>
             <p class="mt-2 font-medium text-gray-600 uppercase dark:text-gray-200">Bank of Oklahoma</p>
             <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
-                <li>Develop reusable Angular component library</li>
-                <li>Develop proof of concept to assess best path forward to reusable Angular components</li>
-                <li>Mentor junior front-end developers</li>
+                <li>Work closely with the Experience Architect to incorporate design system tokenization efforts into
+                    custom component library</li>
+                <li>Develop 1.0 version of custom reusable component library (built with Angular) that incorporates
+                    design tokens and standardizes design system implementation</li>
+                <li>Evangelize for adoption and implementation of custom component library across the organization</li>
                 <li>Duties as below</li>
             </ul>
             <div
@@ -63,7 +68,8 @@
                 <li>Contribute to design system specifications (e.g., led the adoption of a 4/8pt spatial system)</li>
             </ul>
 
-            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
+            <div
+                class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">UI/UX
                     Designer</h3>
                 <p
@@ -82,7 +88,8 @@
                 </li>
             </ul>
 
-            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
+            <div
+                class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer</h3>
                 <p
@@ -96,7 +103,8 @@
                 <li>Performed cross-browser/cross-device quality assurance testing for web features</li>
             </ul>
 
-            <div class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
+            <div
+                class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 dark:border-black">
                 <h3 class="w-full m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
                     Developer/Designer</h3>
                 <p
@@ -137,8 +145,10 @@
                 <li>Performed design and development tasks as required</li>
             </ul>
         </section>
-        <section class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
-            <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">Education
+        <section
+            class="p-6 mt-4 bg-white bg-opacity-75 border rounded-lg shadow-sm border-gray-125 dark:border-black dark:bg-gray-900 dark:bg-opacity-50 md:p-16 xl:p-24">
+            <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">
+                Education
             </h2>
             <ul class="max-w-5xl mt-8 space-y-2 text-sm list-inside xl:space-y-3 list-square xl:text-xl">
                 <li>Undergraduate: BA in English (major) and History (minor) | Austin Peay (with honors)</li>
