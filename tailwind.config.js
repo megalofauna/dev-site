@@ -30,7 +30,7 @@ module.exports = {
           '950': '#0B0C0E'
         },
         brand: {
-          primary: '#EC4899'
+          primary: '#ff704d'
         }
       }
     },
