@@ -52,6 +52,8 @@
                     CSS</li>
                 <li>Evangelize for adoption of and participation with component library efforts across the organization
                 </li>
+                <li>Lead front-end development efforts for my team and mentor other developers as needed
+                </li>
                 <li>Duties as below</li>
             </ul>
             <div
