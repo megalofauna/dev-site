@@ -35,7 +35,8 @@
             <h2 class="flex items-center m-0 text-xl font-medium sm:text-2xl dark:text-white md:text-3xl xl:text-4xl">
                 Work experience</h2>
             <div class="flex flex-wrap items-center justify-between mt-8 md:flex-nowrap">
-                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Software
+                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-brand-primary lg:w-auto">
+                    Software
                     Developer II - Assistant Vice
                     President</h3>
                 <p
@@ -55,7 +56,8 @@
             </ul>
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 md:flex-nowrap dark:border-black dark:text-gray-100">
-                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Software
+                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-brand-primary lg:w-auto">
+                    Software
                     Developer II</h3>
                 <p
                     class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
@@ -74,7 +76,8 @@
 
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 md:flex-nowrap dark:border-black">
-                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">UI/UX
+                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-brand-primary">
+                    UI/UX
                     Designer</h3>
                 <p
                     class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
@@ -95,7 +98,8 @@
 
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 md:flex-nowrap dark:border-black">
-                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
+                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-brand-primary">
+                    Front-end
                     Developer</h3>
                 <p
                     class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
@@ -111,7 +115,8 @@
 
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 md:flex-nowrap dark:border-black">
-                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
+                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-brand-primary">
+                    Front-end
                     Developer/Designer</h3>
                 <p
                     class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
@@ -133,7 +138,8 @@
 
             <div
                 class="flex flex-wrap items-center justify-between pt-8 mt-8 border-t border-gray-300 md:flex-nowrap dark:border-black dark:text-gray-100">
-                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-gray-50 lg:w-auto">Front-end
+                <h3 class="w-auto m-0 font-bold leading-tight text-md lg:text-xl dark:text-brand-primary">
+                    Front-end
                     Developer</h3>
                 <p
                     class="px-2 py-1 mt-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded dark:text-gray-100 dark:bg-gray-900 dark:border-black">
